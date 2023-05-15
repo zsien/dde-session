@@ -503,8 +503,8 @@ void SessionManager::prepareShutdown(bool force)
     stopSogouIme();
     stopBAMFDaemon();
 
-    if (!force)
-        preparePlayShutdownSound();
+    // if (!force)
+    //     preparePlayShutdownSound();
 
     stopPulseAudioService();
 }
